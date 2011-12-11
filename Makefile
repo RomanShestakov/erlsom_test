@@ -8,7 +8,7 @@ clean:
 	rebar clean
 
 APPS = kernel stdlib sasl erts ssl tools os_mon runtime_tools crypto inets\
-xmerl snmp public_key mnesia eunit syntax_tools compiler eunit webtool
+xmerl snmp public_key mnesia eunit syntax_tools compiler webtool
 DEPS = deps/mdigraph/ebin
 
 COMBO_PLT = $(HOME)/.test_plt
